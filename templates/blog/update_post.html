@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <style>
+
+        label {
+            display: -webkit-box;
+            margin-bottom: .5rem;
+        }
+
+        #id_body {
+            position: relative;
+            z-index: 2;
+            height: 200px;
+            width: 200%;
+            background-color: #393c3d;
+            font-size: 12px;
+            margin-bottom: 15px;
+            padding: 10px 10px;
+            color: #ffffff;
+            -webkit-transition-duration: 500ms;
+            -o-transition-duration: 500ms;
+            transition-duration: 500ms;
+            border: none;
+            border-radius: 0;
+        }
+
+        #id_title {
+            position: relative;
+            z-index: 2;
+            height: 48px;
+            width: 40%;
+            background-color: #393c3d;
+            font-size: 12px;
+            margin-bottom: 1px;
+            padding: 10px 10px;
+            color: #ffffff;
+            -webkit-transition-duration: 500ms;
+            -o-transition-duration: 500ms;
+            transition-duration: 500ms;
+            border: none;
+            border-radius: 0;
+        }
+    </style>
+
+    <div class="update-form mt-5 ml-3 pt-3" >
+        <h1>Update Blog Post: </h1>
+    <form action="{% url 'edit_post_url' post.pk %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Update">
+    </form>
+    </div>
+
+
+
+{% endblock %}
+
