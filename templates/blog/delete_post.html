@@ -2,13 +2,14 @@
 
 {% block content %}
 
-    <div class="post-entry">
-        <h3>Are you sure you want to delete: {{ post.title }}??</h3>
-{#        <p>{{ post.body }}</p>#}
+    <div class="post-entry mt-70 ml-3">
+        <h3>Are you sure you want to delete:</h3>
+        <a href="{% url 'detail_url' post.pk %}">{{ post.title }}</a>
+        <form action="{% url 'delete_post_url' post.pk %}" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="Delete">
+        </form>
     </div>
 
-    <form action="{% url 'delete_post_url' post.pk %}" method="POST">
-        {% csrf_token %}
-        <input type="submit" value="Delete">
-    </form>
+
 {% endblock %}
