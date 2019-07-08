@@ -31,21 +31,6 @@ class BlogUpdateView(UpdateView):
 
 
 
-# def BlogDeleteView(request, pk):
-#     if request.method == 'POST':
-#         post = get_object_or_404(Post,pk=pk)
-#
-#         post.delete()
-#
-#         return redirect('home_url')
-#
-#     else:
-#
-#         post = get_object_or_404(Post, pk = pk)
-#         return render(request,'blog/delete_post.html',{'post':post})
-
-
-
 
 
 class BlogDeleteView(DeleteView):

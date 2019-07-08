@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        .helptext{
+            visibility: hidden;
+        }
+        ul {
+            display: none;
+        }
+    </style>
+    
+    <div class="login-form mt-70 ml-2 mb-100 pb-5">
+        <h2>SignUp</h2>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+        <button type="submit" class="btn btn-sm btn-primary">Signup</button>
+        </form>
+    </div>
+{% endblock %}
