@@ -137,3 +137,9 @@ LOGIN_REDIRECT_URL = 'home_url'
 LOGOUT_REDIRECT_URL = 'home_url'
 
 CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
+
+
+
+if 'DATABASE_URL' in os.environ:
+    import dj_database_url
+    DATABASES = {'default': dj_database_url.config()}
