@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b041517-3812-4c1c-ac8a-9f1292234a93" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/home.html" afterPath="$PROJECT_DIR$/templates/blog/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,13 +85,15 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="46" />
+            <state relative-caret-position="1729">
+              <caret line="282" column="26" lean-forward="true" selection-start-line="282" selection-start-column="26" selection-end-line="282" selection-end-column="26" />
               <folding>
                 <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-                <marker date="1562596712009" expanded="false" signature="1034:1299" ph="..." />
-                <marker date="1562596712009" expanded="true" signature="1411:3696" ph="..." />
-                <marker date="1562596712009" expanded="false" signature="4903:11750" ph="..." />
+                <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
+                <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
+                <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
+                <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
+                <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,8 +102,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+            <state relative-caret-position="160">
+              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -119,8 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ico</find>
-      <find>vizew</find>
       <find>section</find>
       <find>video-du</find>
       <find>video d</find>
@@ -149,6 +150,8 @@
       <find>blog</find>
       <find>col-md-7</find>
       <find>col-md-</find>
+      <find>latest</find>
+      <find>twiste</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,12 +177,12 @@
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/blog_project/urls.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/templates/registration/signup.html" />
         <option value="$PROJECT_DIR$/my_blog/settings.py" />
         <option value="$PROJECT_DIR$/blog_project/settings.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog/home.html" />
       </list>
     </option>
@@ -598,9 +601,11 @@
           <caret line="62" column="28" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="28" />
           <folding>
             <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-            <marker date="1562596712009" expanded="false" signature="1034:1299" ph="..." />
-            <marker date="1562596712009" expanded="true" signature="1411:3696" ph="..." />
-            <marker date="1562596712009" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
           </folding>
         </state>
       </provider>
@@ -652,9 +657,11 @@
           <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding>
             <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-            <marker date="1562596712009" expanded="false" signature="1034:1299" ph="..." />
-            <marker date="1562596712009" expanded="true" signature="1411:3696" ph="..." />
-            <marker date="1562596712009" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
           </folding>
         </state>
       </provider>
@@ -884,21 +891,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="46" />
+        <state relative-caret-position="1729">
+          <caret line="282" column="26" lean-forward="true" selection-start-line="282" selection-start-column="26" selection-end-line="282" selection-end-column="26" />
           <folding>
             <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-            <marker date="1562596712009" expanded="false" signature="1034:1299" ph="..." />
-            <marker date="1562596712009" expanded="true" signature="1411:3696" ph="..." />
-            <marker date="1562596712009" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
+            <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="160">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding />
         </state>
       </provider>
