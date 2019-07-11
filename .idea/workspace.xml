@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b041517-3812-4c1c-ac8a-9f1292234a93" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/home.html" afterPath="$PROJECT_DIR$/templates/blog/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,27 +81,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1729">
-              <caret line="282" column="26" lean-forward="true" selection-start-line="282" selection-start-column="26" selection-end-line="282" selection-end-column="26" />
+            <state relative-caret-position="56">
+              <caret line="232" column="52" lean-forward="false" selection-start-line="232" selection-start-column="52" selection-end-line="232" selection-end-column="52" />
               <folding>
                 <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-                <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
-                <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
-                <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
-                <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
-                <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
+                <marker date="1562808794863" expanded="false" signature="1034:1299" ph="..." />
+                <marker date="1562808794863" expanded="false" signature="1411:3696" ph="..." />
+                <marker date="1562808794863" expanded="false" signature="4903:11750" ph="..." />
+                <marker date="1562808794863" expanded="false" signature="13169:15392" ph="..." />
+                <marker date="1562808794863" expanded="false" signature="15410:17722" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="-3168">
               <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding />
             </state>
@@ -182,8 +181,8 @@
         <option value="$PROJECT_DIR$/my_blog/settings.py" />
         <option value="$PROJECT_DIR$/blog_project/settings.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog/home.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -601,11 +600,11 @@
           <caret line="62" column="28" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="28" />
           <folding>
             <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-            <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="1034:1299" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="1411:3696" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="13169:15392" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="15410:17722" ph="..." />
           </folding>
         </state>
       </provider>
@@ -657,11 +656,11 @@
           <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding>
             <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-            <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="1034:1299" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="1411:3696" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="13169:15392" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="15410:17722" ph="..." />
           </folding>
         </state>
       </provider>
@@ -889,26 +888,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/blog/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="282" column="26" lean-forward="true" selection-start-line="282" selection-start-column="26" selection-end-line="282" selection-end-column="26" />
-          <folding>
-            <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
-            <marker date="1562808413531" expanded="false" signature="1034:1299" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="1411:3696" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="4903:11750" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="13169:15392" ph="..." />
-            <marker date="1562808413531" expanded="false" signature="15410:17722" ph="..." />
-          </folding>
+        <state relative-caret-position="-3168">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/home.html">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="56">
+          <caret line="232" column="52" lean-forward="false" selection-start-line="232" selection-start-column="52" selection-end-line="232" selection-end-column="52" />
+          <folding>
+            <element signature="e#11734#11748#0#DjangoTemplate" expanded="false" />
+            <marker date="1562808794863" expanded="false" signature="1034:1299" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="1411:3696" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="4903:11750" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="13169:15392" ph="..." />
+            <marker date="1562808794863" expanded="false" signature="15410:17722" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
